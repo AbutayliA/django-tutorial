@@ -16,6 +16,7 @@ class fieldTypeTests(TestCase):
         self.assertEquals('TextInput', field_type(form['name']))
         self.assertEquals('PasswordInput', field_type(form['password']))
 
+
 class InputClassTests(TestCase):
     def test_unbound_field_initial_state(self):
         form = ExampleForm()  # unbound form
